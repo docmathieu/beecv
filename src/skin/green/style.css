@@ -1,0 +1,60 @@
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: rgba(112, 219, 138, 0.75);
+}
+
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar:hover{
+    background-color: #70db8a ;
+}
+
+.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    margin-left: 9px;
+}
+
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background-color: rgba(112, 219, 138, 0.9);
+}
+
+
+
+/* ________________________________ LEFT SECTION __________________________________ */
+
+#leftSkin {
+    background: transparent url("gfx/gfx2.png") repeat-y scroll right 2px  top !important;
+}
+
+#leftSection{
+    background: url(gfx/texture1.png) repeat right bottom;
+    /*background-color: lightgreen;*/
+    background-color: #70db8a;
+}
+
+#leftSection .hList i {
+    color: #70db8a;
+}
+
+#leftSection .tagList span {
+    color: #70db8a;
+}
+
+#leftSection .phoca-box {
+    right: 10px;
+}
+
+/* ________________________________ RIGHT SECTION __________________________________ */
+
+#rightSkin {
+    background: transparent url("gfx/gfx3.png") repeat-y scroll 2px center !important;
+    padding: 20px 20px 20px 30px;
+}
+
+#rightSection{
+    background: white url("gfx/texture1.png") repeat scroll right bottom;
+    padding: 0;
+}
+
+#rightSection .highlight {
+    background-color: #70db8a;
+    color: black;
+}

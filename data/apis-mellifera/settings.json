@@ -1,0 +1,16 @@
+{
+    "defaultLanguage" : "gb",
+    "languages" : [
+        { "id" : "gb", "visible": true},
+        { "id" : "fr", "visible": true}
+    ],
+    "languageSelectVisible" : true,
+    "defaultSkin" : "classic",
+    "skins" : [
+        { "id" : "classic", "path":"src/skin/classic/", "visible": true},
+        { "id" : "green", "path":"src/skin/green/", "visible": true},
+        { "id" : "red", "path":"src/skin/red/", "visible": true},
+        { "id" : "black", "path":"src/skin/black/", "visible": true}
+    ],
+    "skinSelectVisible" : true
+}

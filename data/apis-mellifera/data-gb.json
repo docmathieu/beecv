@@ -1,0 +1,288 @@
+[
+    {
+        "type":         "LAST_UPDATE",
+        "text":         "Last update: 08/05/2015",
+        "visible":      true
+    },
+    
+    {
+        "type":         "NAME",
+        "text":         "Apis Mellifera",
+        "visible":      true
+    },
+    
+    {
+        "type":        "JOB",
+        "text":         "Worker",
+        "visible":      true
+    },
+    
+    {
+        "type":        "PHOTO",
+        "link":         "[user]/assets/gfx/photo.png",
+        "visible":      true
+    },
+    
+    {
+        "type":          "AFTER_PHOTO",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "TEXT",
+                "text":         "Two and a half years old",
+                "visible":      true
+            },
+
+            {
+                "type":         "TEXT",
+                "text":         "Pilot license",
+                "visible":      true
+            }
+        ]
+    },
+    
+    {
+        "type":          "LINKS",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "LIST",
+                "visible":      true,
+                "array":         [
+                    {
+                        "type":         "PRINT",
+                        "image":        "",
+                        "class":        "fa-print",
+                        "text":         "",
+                        "href":         "",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-desktop",
+                        "text":         "",
+                        "href":         "https://en.wikipedia.org/wiki/Bee",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-envelope",
+                        "text":         "",
+                        "href":         "mailto:mellifera.apis@outlook.com",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-mobile",
+                        "text":         "",
+                        "href":         "tel:+33600000000",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-github",
+                        "text":         "",
+                        "href":         "https://github.com/docmathieu/",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-skype",
+                        "text":         "",
+                        "href":         "skype:apis.mellifera?call",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-twitter",
+                        "text":         "",
+                        "href":         "https://twitter.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-tumblr",
+                        "text":         "",
+                        "href":         "http://apis.mellifera.tumblr.com/",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-google-plus",
+                        "text":         "",
+                        "href":         "https://plus.google.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-twitch",
+                        "text":         "",
+                        "href":         "http://www.twitch.tv/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-youtube",
+                        "text":         "",
+                        "href":         "https://www.youtube.com/channel/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-facebook-official",
+                        "text":         "",
+                        "href":         "https://www.facebook.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-linkedin",
+                        "text":         "",
+                        "href":         "https://en.linkedin.com/pub/apis.mellifera",
+                        "visible":      true
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "type":         "DESCRIPTION",
+        "text":         "Currently working",
+        "visible":      true
+    },
+    
+    {
+        "type":          "TAGS",
+        "visible":      true,
+        "array":         [
+            "Worker",
+            "Colony",
+            "Foraging",
+            "Dance",
+            "Alveolus",
+            "Honey",
+            "Hive",
+            "Brood",
+            "Freight",
+            "Sunflower",
+            "Apple tree",
+            "Almond",
+            "Pear tree",
+            "Dandelion"
+        ]
+    },
+    
+    {
+        "type":          "DATAS",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "TITLE",
+                "text":         "Education and training",
+                "visible":      true
+            },{
+                "type":         "TABLE",
+                "visible":      true,
+                "array":        [
+                    ["May 2013",            "Colony of Southern plains",           "Waggle Dance certificate"],
+                    ["April 2013",          "Colony of Southern plains",           "Introduction to Random Dance"],
+                    ["February 2013",       "Colony of Southern plains",           "Round Dance certificate"]
+                ]
+            },{
+                "type":         "TITLE",
+                "text":         "Professional experience",
+                "visible":      true
+            },{
+                "type":         "COMPANY",
+                "name":         "Colony of Northern plains",
+                "logo":         "[user]/assets/gfx/hive2.png",
+                "link":         "https://en.wikipedia.org/wiki/Beehive",
+                "class":        "no-alpha",
+                "title":        "Colony of Northern plains\nWorker\nSince August 2014",
+                "visible":      true,
+                "projects":     [
+                    {
+                        "type":         "PROJECT",
+                        "name":         "Caring for the brood",
+                        "time":         "5 months",
+                        "description":  "Taking care of the newly arrived bees.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Foraging",
+                        "time":         "4 months",
+                        "description":  "Working on the following species:",
+                        "visible":      true,
+                        "table":         [
+                            ["<a href='https://en.wikipedia.org/wiki/Heracleum_sphondylium'>Eltrot</a>",                    "Heracleum sphondylium",            "<img class='img-project' src='[user]/assets/gfx/plant/heracleum_sphondylium.png' alt='heracleum_sphondylium'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Helianthus'>Sunflower</a>",                            "Helianthus annuus",                "<img class='img-project' src='[user]/assets/gfx/plant/helianthus_annuus.png' alt='helianthus_annuus'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/eucalyptus'>Eucalyptus</a>",                           "Eucalyptus melliodora",            "<img class='img-project' src='[user]/assets/gfx/plant/eucalyptus_melliodora.png' alt='eucalyptus_melliodora'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Aster_(genus)'>Aster</a>",                             "Aster",                            "<img class='img-project' src='[user]/assets/gfx/plant/aster1.png' alt='aster1'/>", "<img class='img-project' src='[user]/assets/gfx/plant/aster2.png' alt='aster2'/>", "<img class='img-project' src='[user]/assets/gfx/plant/aster3.png' alt='aster3'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Malus_sylvestris'>Apple tree</a>",                     "Malus sylvestris",                 "<img class='img-project' src='[user]/assets/gfx/plant/malus_sylvestris.png' alt='malus_sylvestris'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Origanum_vulgare'>Origanum</a>",                       "Origanum vulgare",                 "<img class='img-project' src='[user]/assets/gfx/plant/origanum_vulgare.png' alt='origanum_vulgare'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Prunella_vulgaris'>Self-heal</a>",                     "Prunella vulgaris",                "<img class='img-project' src='[user]/assets/gfx/plant/prunella_vulgaris.png' alt='prunella_vulgaris'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Almond'>Almond</a>",                                   "Prunus dulcis",                    "<img class='img-project' src='[user]/assets/gfx/plant/prunus_dulcis.png' alt='prunus_dulcis'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Pyrus_pyraster'>Pear tree</a>",                        "Pyrus pyraster",                   "<img class='img-project' src='[user]/assets/gfx/plant/pyrus_pyraster.png' alt='pyrus_pyraster'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Sumac'>Sumacs</a>",                                    "Rhus typhina",                     "<img class='img-project' src='[user]/assets/gfx/plant/rhus_typhina.png' alt='rhus_typhina'/>"],
+                            ["<a href='https://en.wikipedia.org/wiki/Taraxacum_sect._Ruderalia'>Dandelion</a>",             "Taraxacum section ruderalia",      "<img class='img-project' src='[user]/assets/gfx/plant/taraxacum_section_ruderalia.png' alt='taraxacum_section_ruderalia'/>"]
+                        ]
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Production operator",
+                        "time":         "2 months",
+                        "description":  "Operator on a honey making chain",
+                        "visible":      true
+                    }
+                ]
+            },{
+                "type":         "COMPANY",
+                "name":         "Colony of Southern plains",
+                "logo":         "[user]/assets/gfx/hive1.png",
+                "link":         "https://en.wikipedia.org/wiki/Beehive",
+                "class":        "no-alpha",
+                "title":        "Colony of Southern plains\nWorker\nMay 2013 - July 2014",
+                "visible":      true,
+                "projects":     [
+                    {
+                        "type":         "PROJECT",
+                        "name":         "Alveolus production",
+                        "time":         "6 months",
+                        "description":  "Introduction to the alveolus construction based on regular hexagons.\nAlveolus manufacture on the west side of the hive.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Maintenance, Material Handling",
+                        "time":         "4 months",
+                        "description":  "Cleaning the hive and freight.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Nest supplies",
+                        "time":         "2 months",
+                        "description":  "Freight.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Foraging",
+                        "time":         "2 months",
+                        "description":  "Working on the following species:",
+                        "visible":      true,
+                        "list":         [
+                            "<a href='https://en.wikipedia.org/wiki/Acer_pseudoplatanus'><img class='img-project' src='[user]/assets/gfx/plant/acer_pseudoplatanus.png' alt='acer_pseudoplatanus'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Borago_officinalis'><img class='img-project' src='[user]/assets/gfx/plant/borago_officinalis1.png' alt='borago_officinalis1'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Borago_officinalis'><img class='img-project' src='[user]/assets/gfx/plant/borago_officinalis2.png' alt='borago_officinalis2'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Brassica_napus'><img class='img-project' src='[user]/assets/gfx/plant/Brassica_napus_var_napus.png' alt='Brassica_napus_var_napus'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Castanea_sativa'><img class='img-project' src='[user]/assets/gfx/plant/castanea_sativa.png' alt='castanea_sativa'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Hedera_helix'><img class='img-project' src='[user]/assets/gfx/plant/hedera_helix.png' alt='hedera_helix'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Ilex_aquifolium'><img class='img-project' src='[user]/assets/gfx/plant/ilex_aquifolium.png' alt='ilex_aquifolium'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Lythrum_salicaria'><img class='img-project' src='[user]/assets/gfx/plant/lythrum_salicaria.png' alt='lythrum_salicaria'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Prunus_avium'><img class='img-project' src='[user]/assets/gfx/plant/prunus_avium.png' alt='prunus_avium'/></a>",
+                            "<a href='https://en.wikipedia.org/wiki/Tilia'><img class='img-project' src='[user]/assets/gfx/plant/tilia.png' alt='tilia'/></a>"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

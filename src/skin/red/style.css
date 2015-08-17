@@ -1,0 +1,79 @@
+@media only screen and (max-width: 760px) {
+    #leftSection{
+        padding-right: 0px !important;
+        padding-bottom: 5px;
+    }
+    #leftSection #mCSB_1{
+        border-right: none !important;
+        border-bottom: 1px dashed grey;
+    }
+}
+
+select, input{
+    color: black;
+}
+
+/* ________________________________ LEFT SECTION __________________________________ */
+
+#leftSection h1, #leftSection h2{
+    color: white;
+}
+
+#leftSection{
+    background: url(gfx/texture1.png) repeat right bottom;
+    background-color: maroon;
+    color: #d2d2d2;
+    padding-right: 5px;
+    box-shadow: 0 0 10px 1px black;
+}
+
+/* Exist because of scrollbar */
+#leftSection #mCSB_1{
+    border-right: 1px dashed grey;
+}
+
+
+#leftSection #first-block h5 {
+    color: white;
+}
+
+#leftSection .tagList span {
+    background-color: transparent;
+    border: 1px dashed grey;
+    color: white;
+}
+
+#leftSection .tagList span:hover {
+    background-color: #8a5050;
+}
+
+#leftSection .tagList .selected {
+    background-color: #8a5050;
+}
+
+#leftSection .hList i {
+    border: 1px solid grey;
+    color: white;
+    background-color: transparent;
+}
+
+/* ________________________________ RIGHT SECTION __________________________________ */
+
+#rightSection{
+    background: black url("gfx/texture1.png") repeat scroll right bottom;
+    color: #d2d2d2;
+}
+
+#rightSection .company-block{
+    border: 1px dashed #28282f;
+    border-radius: 5px;
+}
+
+#rightSection table tr {
+    border-bottom: 1px dotted #48484f;
+}
+
+#rightSection .highlight {
+    background-color: maroon;
+    color: white;
+}

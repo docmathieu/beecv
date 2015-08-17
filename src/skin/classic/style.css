@@ -1,0 +1,27 @@
+
+
+/* ________________________________ LEFT SECTION __________________________________ */
+
+#leftSection{
+    background: url(gfx/texture1.png) repeat right bottom;
+    background-color: lightslategrey;
+    -o-box-shadow:          0 0 5px 1px black;
+    -ms-box-shadow:         0 0 5px 1px black;
+    -moz-box-shadow:        0 0 5px 1px black;
+    -webkit-box-shadow:     0 0 5px 1px black;
+    box-shadow:             0 0 5px 1px black;
+}
+
+
+/* ________________________________ RIGHT SECTION __________________________________ */
+
+#rightSection .company-block{
+    background-color: #fbfdff;
+    border: 1px solid #e8e8ef;
+    border-radius: 5px;
+}
+
+#rightSection .highlight {
+    background-color: #dab30a;
+    color: white;
+}

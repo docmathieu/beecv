@@ -1,0 +1,148 @@
+@page {
+    size: portrait;
+}
+
+body {
+  width: auto!important;
+  margin: auto!important;
+  font-family: serif;
+  font-size: 12pt;
+  background-color: #fff!important;
+}
+
+p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol {
+  color: #000!important;
+  margin: auto!important;
+}
+.print {
+  display: block; /* affichage des éléments de classe print */
+}
+p, blockquote {
+  orphans: 3; /* pas de ligne seule en bas */
+  widows: 3; /* pas de ligne seule en haut */
+}
+blockquote, ul, ol {
+  page-break-inside: avoid; /* pas de coupure dans ces élements */
+}
+
+h1, h2, h3, h4, h5, h6, caption {
+  page-break-after: avoid; /* pas de saut après ces éléments */
+}
+a {
+  color: #000!important;
+  /*text-decoration: underline!important;*/
+}
+a[href]:after {
+  content: " (" attr(href) ")"; /* affichage des URL des liens */
+}
+
+#loading{
+    display: none;
+}
+
+.phoca-box {
+    position: relative;
+    display: none;
+}
+
+#setting-block{
+    display: none;
+}
+
+.hList{
+    display: block;
+}
+
+.print-button {
+    display: none !important;
+}
+
+.info2{
+    margin-bottom: 40px;
+}
+
+.tagList{
+    display: none;
+}
+
+.fa-3x {
+    font-size: 30px;
+}
+
+.projects{
+    page-break-before: avoid;
+}
+
+.project-title{
+    page-break-after: avoid;
+}
+
+.info a[href]:after {
+    content: none;
+}
+
+
+/* ________________________________ LEFT SECTION __________________________________ */
+
+#leftSection .hList {
+    display: inline-block;
+    width: auto;
+}
+
+#leftSection .hList i{
+    display: inline;
+}
+
+#leftSection .hList a {
+    display: block;
+    width: auto;
+    text-align: left;
+}
+
+#leftSection {
+    position: relative;
+    width: 100%;
+}
+
+#leftSection #first-block a {
+    display: block;
+}
+
+#leftSection #first-block h5 {
+    display: block;
+}
+
+#leftSection #clipboard_block {
+    display: none !important;
+}
+
+
+/* ________________________________ RIGHT SECTION __________________________________ */
+
+
+#rightSection{
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+}
+
+#rightSection .img-project {
+    height: 80px;
+}
+
+#rightSection{
+    page-break-before: always;
+}
+
+#rightSection .company .imgDesign {
+    width: 240px;
+}
+
+#rightSection a[href]:after {
+  /*content: " (" attr(href) ")";*/
+  content: none;
+}
+
+#rightSection .hList a{
+    display: inline;
+}

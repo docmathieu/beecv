@@ -1,0 +1,55 @@
+<IfModule mod_rewrite.c>
+    # If you have sub-folder: [E=SUB_FOLDER:/folder-name] and change # Index page
+    # Else [E=SUB_FOLDER:]
+    RewriteRule .* - [E=SUB_FOLDER:]
+    RewriteEngine On
+    DirectoryIndex null
+
+    # remove last /, we dont want the URL be considered like a folder
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$ %{ENV:SUB_FOLDER}/$1 [L,R=301]
+
+    # if folder src or data, move on this folders (do not use data name in js folders)
+    # Only if you dont have sub-folder
+    RewriteCond %{REQUEST_URI} ^/(.*)/(src|data)/(.*)
+    RewriteCond %{ENV:SUB_FOLDER} ^$
+    RewriteRule ^(.*)(src|data)/(.*)$ %{ENV:SUB_FOLDER}/$2/$3 [L] [NC]
+
+    # if folder src or data, move on this folders (do not use data name in js folders)
+    # Only if you have sub-folder
+    RewriteCond %{REQUEST_URI} ^/(.*)/(.*)/(src|data)/(.*)
+    RewriteRule ^(.*)(src|data)/(.*)$ %{ENV:SUB_FOLDER}/$2/$3 [L] [NC]
+
+    # if params, 301 redirect (see getNewURL in eventlistener)
+    RewriteCond %{REQUEST_URI} ^/(.*)params/(.*)
+    RewriteRule ^(.*)params/(.*)$ %{ENV:SUB_FOLDER}/$2 [L,R=301]
+
+    # if error comme from js
+    RewriteCond %{REQUEST_URI} ^/(.*)load-error(.*)
+    RewriteRule ^(.*)$ %{ENV:SUB_FOLDER}/-/src/html/error.html [L] [NC]
+
+    # 1 param > name
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^/]+)$ %{ENV:SUB_FOLDER}/src/php/index.php?name=$1 [L] [NC]
+
+    # 2 params > name, lang
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^/]+)/([^/]+)$ %{ENV:SUB_FOLDER}/src/php/index.php?name=$1&lang=$2 [L] [NC]
+
+    # 3 params > name, lang, skin
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^([^/]+)/([^/]+)/([^/]+)$ %{ENV:SUB_FOLDER}/src/php/index.php?name=$1&lang=$2&skin=$3 [L] [NC]
+
+    # To redirect info page to your cv, uncomment this lines
+    # RewriteCond %{REQUEST_URI} ^/$
+    # Rewriterule ^.*$ %{ENV:SUB_FOLDER}/apis-mellifera [L,R=301]
+
+    # Index page
+    RewriteCond %{REQUEST_URI} ^/$
+    Rewriterule ^.*$ %{ENV:SUB_FOLDER}/src/php/info.php [L] [NC]
+
+    # Error
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^.*$ %{ENV:SUB_FOLDER}/error.html [L] [NC]
+
+</IfModule>

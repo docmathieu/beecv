@@ -1,0 +1,523 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+#all{
+    padding: 0;
+}
+
+#loading {
+    background-color: #7d8c9b;
+    color: #fcd937;
+    font-weight: bold;
+    height: 100%;
+    padding-top: 40px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+h1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    font-size: medium;
+}
+
+a:hover, a:visited, a:link, a:active, a:focus
+{
+    text-decoration: none;
+    outline:0;
+}
+
+.clear{
+    clear: both;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.tagList span {
+    background-color: #333;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.tagList span:hover {
+    background-color: black;
+}
+
+@media only screen and (max-width: 760px) {
+    #leftSection{
+        position: relative !important;
+    }
+    #rightSkin{
+        padding-top: 60px !important;
+    }
+}
+
+/* ________________________________ Flags __________________________________ */
+
+.phoca-box {
+    right: 0;
+    position: absolute;
+}
+
+#leftSection.mCS_no_scrollbar .phoca-box{
+    right: 10px;
+}
+
+.phoca-box:hover {
+    background-color: white;
+    padding: 1px;
+}
+
+.phoca-box select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    text-indent: 0.01px;
+    text-overflow: "";
+    width: 50px;
+    cursor: pointer;
+}
+
+.phoca-box select option {
+    border: 0 none;
+    margin-top: 2px;
+}
+
+.phoca-flag {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    border: 0 none !important;
+    display: block !important;
+    height: 35px !important;
+    vertical-align: middle !important;
+    width: 50px !important;
+    cursor: pointer !important;
+    background-position: center center !important;
+}
+
+.languages .phoca-flag {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+    
+.languages .phoca-flag:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#setting-block{
+    text-align: left;
+}
+
+
+/* ________________________________ LEFT SECTION __________________________________ */
+
+#leftSection{
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    height: 100%;
+    overflow: auto;
+    z-index: 999;
+    color: #333;
+}
+
+#leftSection .mCS_no_scrollbar .mCSB_container{
+    padding: 10px;
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+#leftSection .mCSB_container {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+#leftSection h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+#leftSection .block{
+    margin-bottom: 20px;
+}
+
+#leftSection .block.no-margin{
+    margin-bottom: 0px;
+}
+
+#leftSection .info{
+    text-align: left;
+}
+
+#leftSection .info1{
+    margin-bottom: 30px;
+}
+
+#leftSection .info2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#leftSection .description{
+    font-size: large;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#leftSection .photo-image{
+    width: 220px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+    -o-box-shadow:          0 0 5px 1px black;
+    -ms-box-shadow:         0 0 5px 1px black;
+    -moz-box-shadow:        0 0 5px 1px black;
+    -webkit-box-shadow:     0 0 5px 1px black;
+    box-shadow:             0 0 5px 1px black;
+    z-index: 999;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#leftSection .hList{
+    display: inline-block;
+}
+
+#leftSection .hList div{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    overflow:hidden;
+    z-index: 999;
+    margin: 2px;
+}
+
+#leftSection .hList a{
+    padding: 2px;
+    display: inline-block;
+}
+
+#leftSection .hList a:visited, #leftSection .hList a:link, #leftSection .hList a:active{
+    color: inherit;
+}
+
+#leftSection .hList i {
+    background-color: #333;
+    border-radius: 100%;
+    color: #8b9cad;
+    display: table-cell;
+    font-size: 2em;
+    height: 48px;
+    padding: 10px;
+    text-align: center;
+    width: 48px;
+    
+    /* when move-out, put transform to origin */
+    transition: transform 2s;
+}
+
+#leftSection .hList i:hover {
+    /* color:  #8b9cad; */
+    animation: logo-rotation 500ms ease-out infinite;
+}
+
+@keyframes logo-rotation {
+    0%, 100%   {
+        transform: rotate(0deg);
+    }
+    25%   {
+        transform: rotate(-20deg);
+    }
+    75%   {
+        transform: rotate(20deg);
+    }
+}
+
+#leftSection .tagList span{
+    background-color: #535353;
+    color: #9fb0c1;
+    font-size: small;
+    font-weight: bold;
+    transition: background-color 200ms ease-out 0s;
+}
+
+#leftSection .tagList span:hover {
+    background-color: #333;
+}
+
+#leftSection .tagList .selected {
+    background-color: #333;
+}
+
+#leftSection .mCSB_scrollTools_vertical{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#leftSection a{
+    color: inherit;
+}
+
+#leftSection a:hover{
+    color: black;
+}
+
+#leftSection #first-block {
+    margin-bottom: 20px;
+}
+
+#leftSection #first-block a {
+    display: block;
+}
+
+#leftSection #first-block h5 {
+    display: block;
+}
+
+#leftSection h5 {
+    font-size: small;
+    line-height: 18px;
+}
+
+#leftSection #clipboard_block {
+    margin-bottom: 10px;
+    display: none;
+}
+
+#leftSection #clipboard_block input{
+    width: 70%;
+}
+
+#leftSection #leftSkin {
+    height: 100%;
+}
+
+
+/* ________________________________ RIGHT SECTION __________________________________ */
+
+#rightSection{
+    padding: 20px 20px 20px 30px;
+    background-color: white;
+}
+
+#rightSection .projects{
+    margin: 0;
+    padding: 0;
+}
+
+#rightSection .company-block{
+    margin-bottom: 40px;
+    padding: 2%;
+    overflow: hidden;
+}
+
+#rightSection .img-project{
+    height: 100px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#rightSection a .img-project{
+    border: 1px solid grey;
+}
+
+#rightSection a .img-project:hover{
+    border: 1px solid black;
+}
+
+#rightSection .project h5 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#rightSection .project h6 {
+    float: right;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#rightSection h4 {
+    line-height: 25px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#rightSection h3{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#rightSection table{
+  border: 0;
+  border-collapse : collapse;
+}
+
+#rightSection table td{
+    padding-right: 20px;
+    line-height: 25px;
+    vertical-align: top;
+}
+
+#rightSection .project table{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#rightSection .project table td{
+    padding-right: 20px;
+}
+
+#rightSection .project td {
+    padding: 6px 20px;
+}
+
+#rightSection li {
+    list-style-type: none;
+}
+
+#rightSection .progress-bar {
+    background-color: darkorange;
+    background-image: none;
+    border-radius: 0 60px 10px 0;
+    box-shadow: none;
+    height: 100%;
+}
+
+#rightSection .project-description {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#rightSection .project p.description {
+    display: block;
+    margin: 0;
+}
+
+#rightSection .company{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#rightSection .company .imgDesign{
+    background: rgba(0, 0, 0, 0) linear-gradient(#ffffff, #e5e5e5) repeat scroll 0 0;
+    background-color: white;
+    border: 1px solid #c8c8cf;
+    border-radius: 10px;
+    display: inline-block;
+    height: 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+#rightSection .company .imgDesign.no-alpha{
+    background: white none repeat scroll 0 0;
+    box-shadow: 0 0 4px 3px rgba(172, 172, 179, 0.3) inset;
+}
+
+#rightSection .company .imgDesign.hoverBorder:hover{
+    border: 1px solid grey;
+}
+
+#rightSection .logo-company {
+    height: 100%;
+    width: 100%;
+}
+
+#rightSection .project .line {
+    border-bottom: 1px dotted #333;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#rightSection .project .progress-bar {
+    background-color: darkorange;
+    height: 2px;
+    margin: 0 auto;
+    float: none;
+}
+
+#rightSection .projects li {
+    margin-top: 40px;
+}
+
+#rightSection .project .block {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#rightSection .highlight {
+    background-color: yellow;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#rightSection table tr{
+    border-bottom: 1px dotted #e8e8ef;
+}
+
+#rightSection table tr:nth-last-child(-n+1) {
+    border-bottom: none;
+}
+
+#rightSection .project table {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+#rightSection .project table td{
+    margin: 0;
+    padding: 0 20px 0 0;
+    vertical-align: middle;
+}

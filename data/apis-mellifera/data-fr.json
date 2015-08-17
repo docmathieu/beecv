@@ -1,0 +1,288 @@
+[
+    {
+        "type":         "LAST_UPDATE",
+        "text":         "Mise à jour: 05/08/2015",
+        "visible":      true
+    },
+    
+    {
+        "type":         "NAME",
+        "text":         "Apis Mellifera",
+        "visible":      true
+    },
+    
+    {
+        "type":        "JOB",
+        "text":         "Ouvrière",
+        "visible":      true
+    },
+    
+    {
+        "type":        "PHOTO",
+        "link":         "[user]/assets/gfx/photo.png",
+        "visible":      true
+    },
+    
+    {
+        "type":          "AFTER_PHOTO",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "TEXT",
+                "text":         "2 ans et demi",
+                "visible":      true
+            },
+
+            {
+                "type":         "TEXT",
+                "text":         "Brevet de pilotage",
+                "visible":      true
+            }
+        ]
+    },
+    
+    {
+        "type":          "LINKS",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "LIST",
+                "visible":      true,
+                "array":         [
+                    {
+                        "type":         "PRINT",
+                        "image":        "",
+                        "class":        "fa-print",
+                        "text":         "",
+                        "href":         "",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-desktop",
+                        "text":         "",
+                        "href":         "https://fr.wikipedia.org/wiki/Abeille",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-envelope",
+                        "text":         "",
+                        "href":         "mailto:mellifera.apis@outlook.com",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-mobile",
+                        "text":         "",
+                        "href":         "tel:+33600000000",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-github",
+                        "text":         "",
+                        "href":         "https://github.com/docmathieu/",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-skype",
+                        "text":         "",
+                        "href":         "skype:apis.mellifera?call",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-twitter",
+                        "text":         "",
+                        "href":         "https://twitter.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-tumblr",
+                        "text":         "",
+                        "href":         "http://apis.mellifera.tumblr.com/",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-google-plus",
+                        "text":         "",
+                        "href":         "https://plus.google.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-twitch",
+                        "text":         "",
+                        "href":         "http://www.twitch.tv/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-youtube",
+                        "text":         "",
+                        "href":         "https://www.youtube.com/channel/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-facebook-official",
+                        "text":         "",
+                        "href":         "https://www.facebook.com/apis.mellifera",
+                        "visible":      true
+                    },{
+                        "type":         "LINK",
+                        "image":        "",
+                        "class":        "fa-linkedin",
+                        "text":         "",
+                        "href":         "https://fr.linkedin.com/pub/apis.mellifera",
+                        "visible":      true
+                    }
+                ]
+            }
+        ]
+    },
+    
+    {
+        "type":         "DESCRIPTION",
+        "text":         "En poste",
+        "visible":      true
+    },
+    
+    {
+        "type":          "TAGS",
+        "visible":      true,
+        "array":         [
+            "Ouvrière",
+            "Colonie",
+            "Butinage",
+            "Danse",
+            "Alvéole",
+            "Miel",
+            "Ruche",
+            "Couvain",
+            "Marchandises",
+            "Tournesol",
+            "Pommier",
+            "Amandier",
+            "Poirier",
+            "Pissenlit"
+        ]
+    },
+    
+    {
+        "type":          "DATAS",
+        "visible":      true,
+        "array":         [
+            {
+                "type":         "TITLE",
+                "text":         "Etudes, formations",
+                "visible":      true
+            },{
+                "type":         "TABLE",
+                "visible":      true,
+                "array":        [
+                    ["Mai 2013",            "Colonie de la plaine du sud",           "Diplôme de danse en huit"],
+                    ["Avril 2013",          "Colonie de la plaine du sud",           "Initiation à la danse aléatoire (option)"],
+                    ["Février 2013",        "Colonie de la plaine du sud",           "Diplôme de danse circulaire"]
+                ]
+            },{
+                "type":         "TITLE",
+                "text":         "Expérience professionnelle",
+                "visible":      true
+            },{
+                "type":         "COMPANY",
+                "name":         "Colonie du grand nord",
+                "logo":         "[user]/assets/gfx/hive2.png",
+                "link":         "https://fr.wikipedia.org/wiki/Ruche",
+                "class":        "no-alpha",
+                "title":        "Colonie du grand nord\nOuvrière\nDepuis août 2014",
+                "visible":      true,
+                "projects":     [
+                    {
+                        "type":         "PROJECT",
+                        "name":         "Soins au couvain",
+                        "time":         "5 mois",
+                        "description":  "Prise en charge des nouveaux nés.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Butinage",
+                        "time":         "4 mois",
+                        "description":  "Butinage des espèces suivantes:",
+                        "visible":      true,
+                        "table":         [
+                            ["<a href='https://fr.wikipedia.org/wiki/Heracleum_sphondylium'>Berce sphondyle</a>",           "Heracleum sphondylium",            "<img class='img-project' src='[user]/assets/gfx/plant/heracleum_sphondylium.png' alt='heracleum_sphondylium'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/tournesol'>Tournesol</a>",                             "Helianthus annuus",                "<img class='img-project' src='[user]/assets/gfx/plant/helianthus_annuus.png' alt='helianthus_annuus'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/eucalyptus'>Eucalyptus</a>",                           "Eucalyptus melliodora",            "<img class='img-project' src='[user]/assets/gfx/plant/eucalyptus_melliodora.png' alt='eucalyptus_melliodora'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Aster_(genre)'>Aster</a>",                             "Aster",                            "<img class='img-project' src='[user]/assets/gfx/plant/aster1.png' alt='aster1'/>", "<img class='img-project' src='[user]/assets/gfx/plant/aster2.png' alt='aster2'/>", "<img class='img-project' src='[user]/assets/gfx/plant/aster3.png' alt='aster3'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Malus_sylvestris'>Pommier</a>",                        "Malus sylvestris",                 "<img class='img-project' src='[user]/assets/gfx/plant/malus_sylvestris.png' alt='malus_sylvestris'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Origanum_vulgare'>Origan</a>",                         "Origanum vulgare",                 "<img class='img-project' src='[user]/assets/gfx/plant/origanum_vulgare.png' alt='origanum_vulgare'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Prunella_vulgaris'>Brunelle</a>",                      "Prunella vulgaris",                "<img class='img-project' src='[user]/assets/gfx/plant/prunella_vulgaris.png' alt='prunella_vulgaris'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/amandier'>Amandier</a>",                               "Prunus dulcis",                    "<img class='img-project' src='[user]/assets/gfx/plant/prunus_dulcis.png' alt='prunus_dulcis'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Pyrus_pyraster'>Poirier</a>",                          "Pyrus pyraster",                   "<img class='img-project' src='[user]/assets/gfx/plant/pyrus_pyraster.png' alt='pyrus_pyraster'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Rhus'>Sumacs</a>",                                     "Rhus typhina",                     "<img class='img-project' src='[user]/assets/gfx/plant/rhus_typhina.png' alt='rhus_typhina'/>"],
+                            ["<a href='https://fr.wikipedia.org/wiki/Taraxacum_sect._Ruderalia'>Pissenlit</a>",             "Taraxacum section ruderalia",      "<img class='img-project' src='[user]/assets/gfx/plant/taraxacum_section_ruderalia.png' alt='taraxacum_section_ruderalia'/>"]
+                        ]
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Opératrice de confection",
+                        "time":         "2 mois",
+                        "description":  "Opératrice sur chaine de confection de miel",
+                        "visible":      true
+                    }
+                ]
+            },{
+                "type":         "COMPANY",
+                "name":         "Colonie de la plaine du sud",
+                "logo":         "[user]/assets/gfx/hive1.png",
+                "link":         "https://fr.wikipedia.org/wiki/Ruche",
+                "class":        "no-alpha",
+                "title":        "Colonie de la plaine du sud\nOuvrière\nMai 2013 - Juillet 2014",
+                "visible":      true,
+                "projects":     [
+                    {
+                        "type":         "PROJECT",
+                        "name":         "Fabrication d'alvéoles",
+                        "time":         "6 mois",
+                        "description":  "Initiation à la construction d'alvéoles basé sur les hexagones réguliers.\nFabrication d'alvéoles sur la face Ouest.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Entretien, Manutention",
+                        "time":         "4 mois",
+                        "description":  "Nettoyage de la ruche, transport de marchandises.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Ravitaillement du nid",
+                        "time":         "2 mois",
+                        "description":  "Transport de marchandises.",
+                        "visible":      true
+                    },{
+                        "type":         "PROJECT",
+                        "name":         "Butinage",
+                        "time":         "2 mois",
+                        "description":  "Butinage des espèces suivantes:",
+                        "visible":      true,
+                        "list":         [
+                            "<a href='https://fr.wikipedia.org/wiki/Acer_pseudoplatanus'><img class='img-project' src='[user]/assets/gfx/plant/acer_pseudoplatanus.png' alt='acer_pseudoplatanus'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Borago_officinalis'><img class='img-project' src='[user]/assets/gfx/plant/borago_officinalis1.png' alt='borago_officinalis1'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Borago_officinalis'><img class='img-project' src='[user]/assets/gfx/plant/borago_officinalis2.png' alt='borago_officinalis2'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Brassica_napus'><img class='img-project' src='[user]/assets/gfx/plant/Brassica_napus_var_napus.png' alt='Brassica_napus_var_napus'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Castanea_sativa'><img class='img-project' src='[user]/assets/gfx/plant/castanea_sativa.png' alt='castanea_sativa'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Hedera_helix'><img class='img-project' src='[user]/assets/gfx/plant/hedera_helix.png' alt='hedera_helix'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Ilex_aquifolium'><img class='img-project' src='[user]/assets/gfx/plant/ilex_aquifolium.png' alt='ilex_aquifolium'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Salicaire_commune'><img class='img-project' src='[user]/assets/gfx/plant/lythrum_salicaria.png' alt='lythrum_salicaria'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Prunus_avium'><img class='img-project' src='[user]/assets/gfx/plant/prunus_avium.png' alt='prunus_avium'/></a>",
+                            "<a href='https://fr.wikipedia.org/wiki/Tilia'><img class='img-project' src='[user]/assets/gfx/plant/tilia.png' alt='tilia'/></a>"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
